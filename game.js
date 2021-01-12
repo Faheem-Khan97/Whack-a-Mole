@@ -103,7 +103,7 @@ $(document).ready(function () {
                 window.location.href = "index.html";
             });
 
-            if(score >= 100){
+            if(score >= 100 || score == highest){
                 $('#luck-msg').text("Brilliant Score!")
             }
             else if(score >= 50){

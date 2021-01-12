@@ -61,7 +61,7 @@
             height: 16vh;
             background-color: rgb(34, 33, 33);
             margin-bottom: 6vh;
-            padding: 3vh 0px;
+            padding: 1vh 0px;
         }
         #menu-btn{
             padding: 10px 18px;
@@ -78,6 +78,48 @@
             z-index: 100;
             height: auto;
             display: none;
+        }
+        @media only screen and (max-width:695px){
+
+            .container{
+                grid-template-columns: 1fr 1fr ;
+                grid-gap: 11px;
+                grid-column-gap: 45px;
+            
+            }
+            img{
+            height: 80px;
+            width: auto;
+            position: relative;
+            bottom: 30px;
+            left: 36px;
+        }
+        #luck-msg{
+            font-size: 15px;
+        }
+        div.box-round{
+
+            height: 90px;
+            width: 101px;
+            background-color: rgb(19, 18, 18);
+            border: 10px solid rgb(71, 71, 71);
+            border-radius: 20px 210px 31px 204px;
+            position: relative;
+            }
+
+            div.score, div#menu{
+                height: 12vh;
+            margin-bottom: 1vh;
+       
+        }
+        .main-sec{
+           
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+       
+        }
+
         }
     </style>
 

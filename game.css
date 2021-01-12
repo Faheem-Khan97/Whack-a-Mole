@@ -56,3 +56,30 @@ div.img{
     bottom: 78px;
     left: 220px;
   }
+
+@media only screen and (max-width:695px){
+  div img{
+
+    width: 80% !important;
+    height: 36vh!important;
+  }
+  div.img{
+
+    height: 45vh;
+    width: 86%;
+    padding: 5% 0% 5% 12%;
+  }
+  button.start{
+
+    color: rgb(175, 241, 241);;
+    background-color: green;
+    padding: 7px 28px;
+    border: 1px solid rgb(17, 245, 245);
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 25%;
+    left: 35%;
+  }
+
+}
